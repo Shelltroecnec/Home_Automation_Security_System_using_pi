@@ -1,7 +1,10 @@
-# Home_Automation_Security_System_using_pi
-In this Project we use multiple of sensors and Intergrate with Raspberry pi. To develop Home automation with Security
+# Home Automation and Security system using RPi
 
-Hardware Used In this Project :
+In this Project we are using multiple of sensors as an inputs for the Home Automation and IOT based security system. 
+which we have intergrated with RPi.
+
+**Hardware Used In this Project :**
+
 > Raspberry pi 3b+
 
 >DHT11 (Temperature and Humidity Sensor)
@@ -16,13 +19,24 @@ Hardware Used In this Project :
 
 >USB Camera
 
-Software Used In this Project:
->Twilio (for MSG)
+**Software Used In this Project:**
 
-Project Description : 1)In this Project the Temperature Sensor continuosly sense the temperature and Humidity.
-2)Ultrasonic sensor contionous sense the area around it, if it detects the motion the Camera will capture Photo and mail to the dedicated mail(Authority) with Subject - Intruder Alert and Captured Photo attached.
-3)MQ6 Gas/Fire sensor reads the area around it, if it detect Fire/Gas Leak if willl send the Message to the Authority/Owner using Twilio Services.
-4)Bluetooth (HC-05) module is used to wireless turn on LED/DC-FAN and can also send Message if Authority/Owner wants to communicate wirelessly using Bluetooth.
+>Twilio (for Messaging service)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
+
+**Project Description :**
+
+1) In this Project the Temperature Sensor continuosly sense the temperature and Humidity of the surroundings.
+
+2) Ultrasonic sensor continously sense the area around it, and if it detects any motion the USB-camera will capture photo and mail to the dedicated mail (Authority) with Subject which is customizeable.
+   *Example:-* Mail Subject: Intruder Alert and Captured Photo attached.
+   
+4) MQ6 Gas/Fire sensor is also reading the surroundings, if it detect Fire/Gas Leak if will send the message (MSG) to the Authority/Owner using Twilio Services.
+   
+5) Bluetooth (HC-05) module is used to wirelessly device to turn ON LED/DC-FAN (IOT) and can also send Message if Authority/Owner wants to communicate wirelessly using Bluetooth.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------
 
 The Project Hardware Setup is Shown below :
 ![IMG20220221181020](https://user-images.githubusercontent.com/101791916/162619037-48a726ba-478b-4f8f-b7e5-cd4edcbc306e.jpg)
